@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, html {
+    height: 100%;
+    background: linear-gradient(135deg, white, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cadastro-container {
+    background: #fff;
+    width: 900px;
+    height: 700px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    overflow: hidden;
+}
+.info-container {
+    flex: 1;
+    background: #013375;
+    color: #fff;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.info-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.info-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.info-container button {
+    margin-top: 20px;
+    width: max-content;
+    padding: 12px 28px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    color: #013375;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    align-self: start;
+}
+.info-container button:hover {
+    background-color: #013375;
+    color: white;
+}
+.form-container {
+    flex: 1;
+    background: #f9f9f9;
+    width: 900px;
+    height: 700px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.form-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+label {
+    font-size: 1rem;
+    color: #555;
+}
+input[type="text"],
+input[type="password"] {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1.8px solid #bbb;
+    transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #013375;
+    box-shadow: 0 0 5px #013375;
+}
+
+.submit-btn {
+    width: 100px;
+    margin-top: 50px;
+    background-color: #013375;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 5px 15px #013375;
+    transition: background-color 0.3s ease;
+    }
+
+.submit-btn:hover {
+    background-color: #00214d;
+    }
+
+@media (max-width: 700px) {
+.login-container {
+    flex-direction: column;
+    width: 90vw;
+}
+.info-container, .form-container {
+    padding: 30px 20px;
+}
+}

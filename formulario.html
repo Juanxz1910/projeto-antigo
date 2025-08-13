@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<header>
+ <nav>
+  <a href="telainicial.html">Inicio</a>
+  <a href="#">sobre</a>
+  <a href="#">serviços</a>
+  <a href="#">contato</a>
+ </nav>
+</fieldset>
+
+<body>
+  <div class="container-formulario">
+  <section class="form-container" aria-label="formulario de Denuncia">
+    <h2>Detalhes da Denúncia</h2>
+
+<div class="form-group" novalidate>
+      <label for="ID da Denúncia">ID de denuncia:</label><br>
+      <input type="text" id="username" name="username" placeholder="Digite seu ID" required />
+    </div>
+
+<div class="form-group">
+      <label for="username">Usuário Denunciante:</label><br>
+      <input type="text" id="username" name="username" placeholder="Digite seu nome" required />   
+      </div>
+
+<div class="form-group">
+      <label for="Data da Denúncia">data e hora da denuncia:</label><br>
+      <input type="text" id="data" name="data" placeholder="Digite a data e a hora da denuncia" required />   
+    </div>
+
+<div class="form-group">
+  <div class="form-group">
+        <label for="text">Tipo de Agressão:</label>
+        <select id="text" name="text" placeholder="toggleOtherField()">
+          <option value="" disabled selected>tipo de Agressão</option>
+          <option value="Fisica">Fisica</option>
+          <option value="verbal">Verbal</option>
+          <option value="bullying">Bullying</option>
+          <option value="psicologica">psicologica</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+  </div>
+
+<div class="form-group">
+      <label for="Descrição da denuncia">Digite sobre os acontecimentos relacionados a denuncia</label><br>
+      <input type="text" id="Descrição" name="Descrição" placeholder="Digite detalhes da denuncia" required />   
+    </div>
+
+<div class="form-group">
+      <label>Status:</label>
+      <select id="text" name="text" placeholder="toggleOtherField()">
+          <option value="" disabled selected>Aguardando analise</option>
+          <option value="pendente">Pendente</option>
+          <option value="realizada">Realizada</option>
+          <option value="finalisada">Finalisada</option>
+    </div>
+  <div>
+    <a href="telainicial.html" type="submit" class="submit-btn">Voltar</a>
+  </div>
+  </div>
+</div>
+    <footer>
+    <h5>2025 PORTAL JLB</h5>
+
+</body>
+</html>

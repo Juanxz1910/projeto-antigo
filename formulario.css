@@ -1,0 +1,120 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0px;
+      padding: 0px;
+}
+nav {
+  text-align: center;
+  background-color: #013375;
+  padding: 40px;
+  width: 2350px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 100px;
+}
+.container-formulario {
+      text-align: center;
+      margin-left: 600px;
+      margin-top: 70px;
+      max-width:1150px;
+      height: 900px;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px black;
+}
+
+h2 {
+      justify-content: center;
+      color: black;
+      margin-bottom: 20px;
+}
+
+.form-group {
+      margin-bottom: 15px;
+}
+
+.form-group label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+}
+
+.form-group .valor {
+      background-color: whitesmoke;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid whitesmoke;
+}
+input[type="text"],
+input[type="text"] {
+    padding: 12px 300px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1.8px solid #bbb;
+    transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #013375;
+    box-shadow: 0 0 5px #013375;
+}
+label {
+   display: block;
+   font-size: 1rem;
+   color: #555;
+   margin-bottom: 0.5rem;
+}
+
+select, input[type="text"] {
+   width: 100%;
+   padding: 0.75rem;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 1rem;
+   box-sizing: border-box;
+}
+select:focus, input[type="text"]:focus {
+   border-color: #013375;
+   outline: none;
+   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+.hidden {
+   display: none;
+}
+.submit-btn {
+    width: 100px;
+    height: 100px;
+    background-color: #013375;
+    color: white;
+    border: 8px;
+    border-radius: 25px;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600px;
+    box-shadow: 0 5px 15px #013375;
+    transition: background-color 0.3s ease;
+    }
+
+.submit-btn:hover {
+    background-color: #00214d;
+    }
+footer {
+    width: 2350px;
+    margin-top: 100px;
+    background-color: white;
+    color: #013375;
+    padding: 20px;
+    text-align: center;
+
+}
+footer:hover {
+    background-color: #013375;
+    color: white;
+    transition-duration: 0.7s;
+}

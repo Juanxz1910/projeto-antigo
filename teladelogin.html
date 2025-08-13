@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+  <link rel="stylesheet" href="teladelogin.css" />
+</head>
+<body>
+
+  <div class="login-container" role="main">
+    <section class="info-container" aria-label="Informações da Instituição">
+      <h2>Portal JLB</h2>
+      <p>
+        A escola agora conta com um site de denúncias anônimas, onde alunos, professores e funcionários podem relatar casos de bullying, discriminação, 
+        violência ou outras situações inadequadas. O formulário é simples e as informações são avaliadas pela equipe responsável. 
+        A iniciativa busca promover um ambiente mais seguro, respeitoso e acolhedor para todos.
+      </p>
+      <button type="button" class="info-button">Saiba Mais</button>
+    </section>
+
+    <section class="form-container" aria-label="Formulário de Login">
+        <h2>Login</h2>
+        <form id="loginForm" novalidate>    
+            <div class="form-group">    
+                <label for="username">Nome de Usuário</label>   
+                <input type="text" id="username" name="username" placeholder="Digite seu nome" required />   
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required />
+            </div>
+            <a href="telainicial.html" type="submit" class="submit-btn">Entrar</a>
+        </form>
+    </section>
+    </div>
+    
+</body>
+</html>
